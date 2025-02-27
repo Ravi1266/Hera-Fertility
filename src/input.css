@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+.lp-container, .lp-container-fluid, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl, .lp-container-xxl {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1400px) {
+    .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl, .lp-container-xxl {
+        max-width: 1440px;
+    }
+}
+@media (min-width: 1200px) {
+    .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px) {
+    .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px) {
+    .lp-container, .lp-container-md, .lp-container-sm {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px) {
+    .lp-container, .lp-container-sm {
+        max-width: 540px;
+    }
+}
+
+.lp-custom-thumbnails img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    border: 2px solid #D2D2D2;
+    object-fit: cover;
+    cursor: pointer;
+}
+.lp-custom-thumbnails img.active {
+    border-color: #2A769E;
+}
+
+.lp-accordion .lp-accordion-content {
+    display: none;
+}
+.lp-accordion  .lp-active .lp-accordion-content {
+    display: block;
+}
+.lp-accordion  .lp-arrow {
+    transition: transform 0.3s ease;
+}
+.lp-accordion  .lp-active .lp-arrow {
+    transform: rotate(180deg);
+}
+.lp-accordion  .lp-active .lp-arrow svg path{
+    fill: #DC9574;
+}
+.lp-bg-blue-linear{
+    background: linear-gradient(90deg, #2A769E 0%, #2A6E93 100%);
+}
+.lp-custom-next:hover svg path:first-child,
+.lp-custom-prev:hover svg path:first-child{
+    stroke: #2A769E;
+    fill: #2A769E;
+}
+.lp-custom-next:hover svg path:last-child,
+.lp-custom-prev:hover svg path:last-child{
+    fill: white;
+}

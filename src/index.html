@@ -1,0 +1,2275 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, ::before, ::after{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+.lp-absolute{
+  position: absolute;
+}
+
+.lp-relative{
+  position: relative;
+}
+
+.lp-inset-x-0{
+  left: 0px;
+  right: 0px;
+}
+
+.-lp-top-4{
+  top: -1rem;
+}
+
+.-lp-top-5{
+  top: -1.25rem;
+}
+
+.lp-bottom-0{
+  bottom: 0px;
+}
+
+.lp-left-1\/2{
+  left: 50%;
+}
+
+.lp-right-\[-144px\]{
+  right: -144px;
+}
+
+.lp-right-\[-74px\]{
+  right: -74px;
+}
+
+.lp-top-full{
+  top: 100%;
+}
+
+.lp-z-10{
+  z-index: 10;
+}
+
+.lp-m-0{
+  margin: 0px;
+}
+
+.lp-m-auto{
+  margin: auto;
+}
+
+.lp-mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lp-my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.lp-mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.lp-ml-auto{
+  margin-left: auto;
+}
+
+.lp-mt-1{
+  margin-top: 0.25rem;
+}
+
+.lp-mt-10{
+  margin-top: 2.5rem;
+}
+
+.lp-mt-2{
+  margin-top: 0.5rem;
+}
+
+.lp-mt-24{
+  margin-top: 6rem;
+}
+
+.lp-mt-3{
+  margin-top: 0.75rem;
+}
+
+.lp-mt-4{
+  margin-top: 1rem;
+}
+
+.lp-mt-5{
+  margin-top: 1.25rem;
+}
+
+.lp-mt-6{
+  margin-top: 1.5rem;
+}
+
+.lp-mt-\[80px\]{
+  margin-top: 80px;
+}
+
+.lp-flex{
+  display: flex;
+}
+
+.lp-inline-flex{
+  display: inline-flex;
+}
+
+.lp-grid{
+  display: grid;
+}
+
+.lp-aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.lp-size-full{
+  width: 100%;
+  height: 100%;
+}
+
+.lp-h-14{
+  height: 3.5rem;
+}
+
+.lp-h-16{
+  height: 4rem;
+}
+
+.lp-h-7{
+  height: 1.75rem;
+}
+
+.lp-w-full{
+  width: 100%;
+}
+
+.lp-w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.lp-w-px{
+  width: 1px;
+}
+
+.lp-max-w-\[1080px\]{
+  max-width: 1080px;
+}
+
+.lp-max-w-\[400px\]{
+  max-width: 400px;
+}
+
+.lp-max-w-\[440px\]{
+  max-width: 440px;
+}
+
+.lp-max-w-\[650px\]{
+  max-width: 650px;
+}
+
+.lp-max-w-\[660px\]{
+  max-width: 660px;
+}
+
+.lp-max-w-\[730px\]{
+  max-width: 730px;
+}
+
+.lp-max-w-\[900px\]{
+  max-width: 900px;
+}
+
+.lp-shrink-0{
+  flex-shrink: 0;
+}
+
+.-lp-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-lp-translate-y-1\/2{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-lp-translate-y-10{
+  --tw-translate-y: -2.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.lp-cursor-pointer{
+  cursor: pointer;
+}
+
+.lp-select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.lp-grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.lp-grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lp-grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lp-flex-col{
+  flex-direction: column;
+}
+
+.lp-content-center{
+  align-content: center;
+}
+
+.lp-items-start{
+  align-items: flex-start;
+}
+
+.lp-items-end{
+  align-items: flex-end;
+}
+
+.lp-items-center{
+  align-items: center;
+}
+
+.lp-justify-center{
+  justify-content: center;
+}
+
+.lp-justify-between{
+  justify-content: space-between;
+}
+
+.lp-gap-16{
+  gap: 4rem;
+}
+
+.lp-gap-2{
+  gap: 0.5rem;
+}
+
+.lp-gap-20{
+  gap: 5rem;
+}
+
+.lp-gap-3{
+  gap: 0.75rem;
+}
+
+.lp-gap-4{
+  gap: 1rem;
+}
+
+.lp-gap-6{
+  gap: 1.5rem;
+}
+
+.lp-gap-8{
+  gap: 2rem;
+}
+
+.lp-overflow-hidden{
+  overflow: hidden;
+}
+
+.lp-rounded-2xl{
+  border-radius: 1rem;
+}
+
+.lp-rounded-3xl{
+  border-radius: 1.5rem;
+}
+
+.lp-rounded-full{
+  border-radius: 9999px;
+}
+
+.lp-rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.lp-rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.lp-border{
+  border-width: 1px;
+}
+
+.lp-border-b{
+  border-bottom-width: 1px;
+}
+
+.lp-border-\[\#061D2314\]{
+  border-color: #061D2314;
+}
+
+.lp-border-\[\#2B87AE\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(43 135 174 / var(--tw-border-opacity, 1));
+}
+
+.lp-border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.lp-border-gray-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.lp-bg-\[\#2B87AE\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 135 174 / var(--tw-bg-opacity, 1));
+}
+
+.lp-bg-\[\#E3E8EF\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 232 239 / var(--tw-bg-opacity, 1));
+}
+
+.lp-bg-\[\#FAF4F0\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 244 240 / var(--tw-bg-opacity, 1));
+}
+
+.lp-bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.lp-bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.lp-p-1{
+  padding: 0.25rem;
+}
+
+.lp-p-10{
+  padding: 2.5rem;
+}
+
+.lp-p-6{
+  padding: 1.5rem;
+}
+
+.lp-px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.lp-px-11{
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.lp-px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.lp-px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.lp-px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.lp-py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.lp-py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.lp-py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.lp-py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.lp-py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.lp-py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.lp-py-\[80px\]{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.lp-pb-10{
+  padding-bottom: 2.5rem;
+}
+
+.lp-pb-20{
+  padding-bottom: 5rem;
+}
+
+.lp-pb-\[340px\]{
+  padding-bottom: 340px;
+}
+
+.lp-pr-4{
+  padding-right: 1rem;
+}
+
+.lp-pt-80{
+  padding-top: 20rem;
+}
+
+.lp-text-center{
+  text-align: center;
+}
+
+.lp-font-fira{
+  font-family: Fira Sans, serif;
+}
+
+.lp-font-poppins{
+  font-family: Poppins, serif;
+}
+
+.lp-text-\[24px\]{
+  font-size: 24px;
+}
+
+.lp-text-\[28px\]{
+  font-size: 28px;
+}
+
+.lp-text-\[32px\]{
+  font-size: 32px;
+}
+
+.lp-text-\[44px\]{
+  font-size: 44px;
+}
+
+.lp-text-\[52px\]{
+  font-size: 52px;
+}
+
+.lp-text-\[56px\]{
+  font-size: 56px;
+}
+
+.lp-text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.lp-text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.lp-text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.lp-text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.lp-font-medium{
+  font-weight: 500;
+}
+
+.lp-font-semibold{
+  font-weight: 600;
+}
+
+.lp-leading-\[40px\]{
+  line-height: 40px;
+}
+
+.lp-leading-\[56px\]{
+  line-height: 56px;
+}
+
+.lp-leading-\[66px\]{
+  line-height: 66px;
+}
+
+.lp-text-\[\#076500\]{
+  --tw-text-opacity: 1;
+  color: rgb(7 101 0 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-\[\#2B87AE\]{
+  --tw-text-opacity: 1;
+  color: rgb(43 135 174 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-\[\#AD433D\]{
+  --tw-text-opacity: 1;
+  color: rgb(173 67 61 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-\[\#D8EFF5\]{
+  --tw-text-opacity: 1;
+  color: rgb(216 239 245 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-\[\#F7FBFC\]{
+  --tw-text-opacity: 1;
+  color: rgb(247 251 252 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-gray-950{
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity, 1));
+}
+
+.lp-text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.lp-no-underline{
+  text-decoration-line: none;
+}
+
+.lp-shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.lp-shadow-sm{
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.lp-container, .lp-container-fluid, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl, .lp-container-xxl {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1400px) {
+  .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl, .lp-container-xxl {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm, .lp-container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .lp-container, .lp-container-lg, .lp-container-md, .lp-container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lp-container, .lp-container-md, .lp-container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .lp-container, .lp-container-sm {
+    max-width: 540px;
+  }
+}
+
+.lp-custom-thumbnails img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  border: 2px solid #D2D2D2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.lp-custom-thumbnails img.active {
+  border-color: #2A769E;
+}
+
+.lp-accordion .lp-accordion-content {
+  display: none;
+}
+
+.lp-accordion  .lp-active .lp-accordion-content {
+  display: block;
+}
+
+.lp-accordion  .lp-arrow {
+  transition: transform 0.3s ease;
+}
+
+.lp-accordion  .lp-active .lp-arrow {
+  transform: rotate(180deg);
+}
+
+.lp-accordion  .lp-active .lp-arrow svg path{
+  fill: #DC9574;
+}
+
+.lp-bg-blue-linear{
+  background: linear-gradient(90deg, #2A769E 0%, #2A6E93 100%);
+}
+
+.lp-custom-next:hover svg path:first-child,
+.lp-custom-prev:hover svg path:first-child{
+  stroke: #2A769E;
+  fill: #2A769E;
+}
+
+.lp-custom-next:hover svg path:last-child,
+.lp-custom-prev:hover svg path:last-child{
+  fill: white;
+}
+
+.disabled\:lp-pointer-events-none:disabled{
+  pointer-events: none;
+}
+
+@media (min-width: 768px){
+  .md\:lp-px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:lp-grid{
+    display: grid;
+  }
+}
+  </style>
+</head>
+<body class="lp-m-0">
+  <main class="lp-size-full lp-bg-[#FAF4F0]">
+    <section class="lp-container-xxl lp-relative">
+      <div class="md:lp-px-20 lp-py-14">
+        <div class="lg:lp-grid lp-grid-cols-2 lp-grid-flow-col lp-gap-4">
+          <div>
+            <div class="lp-flex lp-items-center lp-justify-between lp-bg-white lp-shadow-md lp-rounded-full lp-w-max lp-py-2 lp-px-3 lp-gap-2">
+              <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 14.5C9 14.5 0.875 10.125 0.875 4.96875C0.875 3.84987 1.31947 2.77681 2.11064 1.98564C2.90181 1.19447 3.97487 0.75 5.09375 0.75C6.85859 0.75 8.37031 1.71172 9 3.25C9.62969 1.71172 11.1414 0.75 12.9062 0.75C14.0251 0.75 15.0982 1.19447 15.8894 1.98564C16.6805 2.77681 17.125 3.84987 17.125 4.96875C17.125 10.125 9 14.5 9 14.5Z" stroke="#CB815F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <h6 class="lp-m-0 lp-font-medium lp-text-sm lp-font-fira">TRUSTED BY 1K+ COUPLES</h6>
+            </div>
+            <div class="lp-mt-3">
+              <h1 class="lp-text-gray-900 lp-text-[56px] lp-font-poppins lp-leading-[66px] lp-font-medium lp-m-0">
+                At-Home Sperm 
+                <br/>
+                <span class="lp-text-[#2B87AE] lp-font-medium">Health Test Kit</span>
+              </h1>
+              <p class="lp-m-0 lp-text-base lp-font-fira lp-text-gray-600 lp-max-w-[400px] lp-w-full lp-mt-2">
+                Get fast, accurate insights into your sperm health from the comfort of your home.
+              </p>
+            </div>
+            <div class="lp-flex lp-mt-10 lp-items-end lp-gap-2">
+              <h2 class="lp-m-0 lp-text-gray-950 lp-text-[32px] lp-font-fira lp-font-semibold">$ 250.00</h2>
+              <p class="lp-text-gray-800 lp-font-fira lp-text-base lp-m-0">Pay with HSA/FSA</p>
+            </div>
+            <div class="lp-flex lp-items-end lp-mt-4 lp-gap-6">
+              <a href="#" class="lp-text-white lp-font-semibold lp-text-lg lp-font-fira lp-rounded-full lp-h-14 lp-px-8 lp-bg-[#2B87AE] lp-no-underline lp-flex lp-items-center lp-w-max">Order Your Kit Now</a>
+              <div>
+                <div class="lp-inline-flex">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                    </svg>
+                </div>
+                <div class="lp-text-gray-800 lp-text-sm lp-font-fira">Rated by 1K+ people</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="slider-container lp-bg-white lp-rounded-lg lp-p-6">
+              <div class="owl-carousel owl-theme lp-hero-slider ">
+                <div class="item ">
+                  <img src="./assets/slider1.png" alt="Image 1">
+                </div>
+                <div class="item">
+                  <img src="./assets/slider1.png" alt="Image 2">
+                </div>
+                <div class="item">
+                  <img src="./assets/slider1.png" alt="Image 1">
+                </div>
+                <div class="item">
+                  <img src="./assets/slider1.png" alt="Image 2">
+                </div>
+              </div>
+            </div>
+            <div class="lp-custom-thumbnails lp-flex lp-justify-center lp-items-center lp-my-6 lp-gap-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="lp-absolute lp-top-full lp-left-1/2 -lp-translate-x-1/2 -lp-translate-y-1/2 lp-w-full">
+        <div class="lp-flex lp-mx-auto lp-justify-between lp-items-center lp-w-full lp-max-w-[1080px] lp-bg-white lp-border lp-border-gray-200 lp-rounded-2xl lp-py-6 lp-px-11">
+          <div class="lp-flex lp-items-center lp-gap-2">
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_204_808)">
+              <path d="M16 16.5352V29.3952" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M4.08789 10.0117L16.0004 16.5317L27.9129 10.0117" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M27.48 23.2512L16.48 29.2737C16.3328 29.3542 16.1678 29.3964 16 29.3964C15.8322 29.3964 15.6672 29.3542 15.52 29.2737L4.52 23.2512C4.36293 23.1652 4.23181 23.0387 4.14035 22.8848C4.04888 22.7309 4.00041 22.5552 4 22.3762V10.4187C4.00041 10.2396 4.04888 10.064 4.14035 9.91006C4.23181 9.75614 4.36293 9.62961 4.52 9.54367L15.52 3.52117C15.6672 3.44064 15.8322 3.39844 16 3.39844C16.1678 3.39844 16.3328 3.44064 16.48 3.52117L27.48 9.54367C27.6371 9.62961 27.7682 9.75614 27.8597 9.91006C27.9511 10.064 27.9996 10.2396 28 10.4187V22.3737C28 22.5531 27.9518 22.7293 27.8603 22.8837C27.7688 23.0381 27.6374 23.165 27.48 23.2512Z" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M10.1953 6.43359L22.0003 12.8948V19.3948" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+              <defs>
+              <clipPath id="clip0_204_808">
+              <rect width="32" height="32" fill="white" transform="translate(0 0.398438)"></rect>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="lp-text-gray-800 lp-text-lg lp-font-fira lp-font-medium">Discreet shipping</div>
+          </div>
+          <div class="lp-h-7 lp-bg-gray-200 lp-w-px"></div>
+          <div class="lp-flex lp-items-center lp-gap-2">
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_204_818)">
+              <path d="M27 14.3984V7.39844C27 7.13322 26.8946 6.87887 26.7071 6.69133C26.5196 6.50379 26.2652 6.39844 26 6.39844H6C5.73478 6.39844 5.48043 6.50379 5.29289 6.69133C5.10536 6.87887 5 7.13322 5 7.39844V14.3984C5 26.3984 16 29.3984 16 29.3984C16 29.3984 27 26.3984 27 14.3984Z" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M11 17.3984L14 20.3984L21 13.3984" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+              <defs>
+              <clipPath id="clip0_204_818">
+              <rect width="32" height="32" fill="white" transform="translate(0 0.398438)"></rect>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="lp-text-gray-800 lp-text-lg lp-font-fira lp-font-medium">Secure, HIPAA-compliant results</div>
+          </div>
+          <div class="lp-h-7 lp-bg-gray-200 lp-w-px"></div>
+          <div class="lp-flex lp-items-center lp-gap-2">
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_204_826)">
+              <path d="M12 16.3984H20" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M12 20.3984H20" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M6 5.39844H26V25.3984C26 26.1941 25.6839 26.9571 25.1213 27.5198C24.5587 28.0824 23.7956 28.3984 23 28.3984H9C8.20435 28.3984 7.44129 28.0824 6.87868 27.5198C6.31607 26.9571 6 26.1941 6 25.3984V5.39844Z" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M10 3.39844V7.39844" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M16 3.39844V7.39844" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M22 3.39844V7.39844" stroke="#DC9574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+              <defs>
+              <clipPath id="clip0_204_826">
+              <rect width="32" height="32" fill="white" transform="translate(0 0.398438)"></rect>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="lp-text-gray-800 lp-text-lg lp-font-fira lp-font-medium">Results within 72 hours</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-bg-white lp-py-10">
+      <div class="lp-container-xxl">
+        <div class="md:lp-px-20 lp-py-14">
+          <div class="lp-text-gray-900 lp-text-[44px] lp-font-poppins lp-leading-[66px] lp-font-medium lp-w-full lp-max-w-[660px] lp-text-center lp-m-auto">
+            Analyzing
+            <span class="lp-text-[#2B87AE] lp-font-medium">10 Key</span>
+            Sperm Health Indicators
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl">
+      <div class="md:lp-px-20 lp-py-14">
+        <div class="lp-text-gray-900 lp-text-[44px] lp-font-poppins lp-font-medium lp-text-center">How It Works in <span class="lp-text-[#2B87AE]">3 Easy Steps</span></div>
+        <div class="lp-text-gray-700 lp-mt-3 lp-text-lg lp-font-fira lp-w-full lp-max-w-[440px] lp-m-auto lp-text-center">
+          Get the answers you need with a fast, easy-to-follow process designed for your convenience.
+        </div>
+        <div class="lp-grid lp-grid-cols-3 lp-grid-flow-col lp-gap-8 lp-mt-[80px]">
+          <div class="lp-p-10 lp-rounded-2xl lp-bg-white lp-shadow-sm lp-relative">
+            <div class="lp-text-gray-400 lp-text-[32px] lp-font-medium lp-font-fira">01.</div>
+            <div class="lp-mt-4 lp-text-gray-800 lp-text-[32px] lp-leading-[40px] lp-font-fira lp-font-medium">Order <br/> your kit</div>
+            <div class="lp-text-gray-600 lp-mt-4 lp-font-fira lp-text-base">Place your order and get discreet delivery to your doorstep.</div>
+            <div class="lp-absolute lp-right-[-74px] -lp-top-5 lp-z-10">
+              <svg width="247" height="115" viewBox="0 0 247 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.28" d="M6.16875 71.8358C6.16875 71.8358 47.3556 108.608 121.016 95.3716C216.566 78.202 232.967 7.02273 232.967 7.02273" stroke="black" stroke-width="1.5" stroke-dasharray="5 5"/>
+                <ellipse cx="6.91919" cy="6.51588" rx="6.91919" ry="6.51588" transform="matrix(0.984236 -0.176858 0.200348 0.979725 0 68.2303)" fill="#B78066"/>
+                <ellipse cx="6.91919" cy="6.51588" rx="6.91919" ry="6.51588" transform="matrix(0.984236 -0.176858 0.200348 0.979725 224.428 2.44727)" fill="#B78066"/>
+              </svg>              
+            </div>
+          </div>
+          <div class="lp-p-10 lp-rounded-2xl lp-bg-white lp-shadow-sm -lp-translate-y-10 lp-relative">
+            <div class="lp-text-gray-400 lp-text-[32px] lp-font-medium lp-font-fira">02.</div>
+            <div class="lp-mt-4 lp-text-gray-800 lp-text-[32px] lp-leading-[40px] lp-font-fira lp-font-medium">Collect <br/> Your Sample</div>
+            <div class="lp-text-gray-600 lp-mt-4 lp-font-fira lp-text-base">Simply follow the clear, step-by-step instructions for hassle-free guidance.</div>
+            <div class="lp-absolute lp-right-[-144px] -lp-top-4 lp-z-10">
+              <svg xmlns="http://www.w3.org/2000/svg" width="231" height="182" viewBox="0 0 231 182" fill="none">
+                <path opacity="0.28" d="M214.732 98.5207C214.732 98.5207 186.738 62.531 138.752 71.3837C72.1833 83.6648 66.769 118.17 87.953 118.054C109.137 117.937 84.1575 57.6846 33.2468 47.0741" stroke="black" stroke-width="1.5" stroke-dasharray="5 5"/>
+                <ellipse cx="6.71504" cy="6.72608" rx="6.71504" ry="6.72608" transform="matrix(0.96828 0.293835 -0.3437 0.926307 30.6582 38.4551)" fill="#B78066"/>
+                <ellipse cx="6.71504" cy="6.72608" rx="6.71504" ry="6.72608" transform="matrix(0.96828 0.293835 -0.3437 0.926307 209.866 90.6445)" fill="#B78066"/>
+              </svg>             
+            </div>
+          </div>
+          <div class="lp-p-10 lp-rounded-2xl lp-bg-white lp-shadow-sm">
+            <div class="lp-text-gray-400 lp-text-[32px] lp-font-medium lp-font-fira">03.</div>
+            <div class="lp-mt-4 lp-text-gray-800 lp-text-[32px] lp-leading-[40px] lp-font-fira lp-font-medium">Return & <br/> Get Results</div>
+            <div class="lp-text-gray-600 lp-mt-4 lp-font-fira lp-text-base">Return with prepaid label, get results in 48 hours, and consult a doctor.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl lp-relative lp-pb-[340px]">
+      <div class="md:lp-px-20">
+        <div class="lp-grid lp-grid-cols-2 lp-grid-flow-col lp-gap-20 lp-mt-[80px]">
+          <div>
+            <img src="./assets/result.png" alt="result" width="100%">
+          </div>
+          <div>
+            <div class="lp-font-medium lp-font-poppins lp-text-[44px] lp-leading-[56px] lp-text-gray-900">Comprehensive At-Home <br/> <span class="lp-text-[#2B87AE]">Sperm Health Testing</span> </div>
+            <div class="lp-text-gray-700 lp-text-base lp-font-fira lp-mt-2">Empower your reproductive journey with detailed insights into your sperm health, all from the comfort and privacy of your home.</div>
+            <div class="lp-accordion lp-mt-6">
+              <div class="lp-accordion-item lp-active lp-py-6 lp-border-b lp-border-gray-300">
+                <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+                  <div class="lp-flex lp-gap-4">
+                    <svg class="lp-shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_252_3037)">
+                      <path d="M12 6H24" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8 3V6.4375C7.99996 8.10893 8.46537 9.74734 9.34407 11.1692C10.2228 12.591 11.48 13.74 12.975 14.4875L19.025 17.5125C20.52 18.26 21.7772 19.409 22.6559 20.8308C23.5346 22.2527 24 23.8911 24 25.5625V29" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8 26H20" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M13.4863 10H23.2651" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.73535 22H18.5141" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M11.6725 18.3088C10.5341 19.1449 9.60846 20.2372 8.97046 21.4974C8.33246 22.7575 8.00001 24.1501 8 25.5626V29.0001" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M23.9996 3V6.4375C23.9991 7.84932 23.6663 9.24119 23.0283 10.5006C22.3904 11.7601 21.465 12.8518 20.3271 13.6875" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_252_3037">
+                      <rect width="32" height="32" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="lp-pr-4">
+                      <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">Comprehensive Fertility Analysis</div>
+                      <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">Collection Kit inlcudes things like, Collection Kit inlcudes Get clinically accurate results for sperm count, motility, and orphology with the convenience of an at-home test kit.</div>
+                    </div>
+                  </div> 
+                  <span class="lp-arrow lp-ml-auto">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+                <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+                  <div class="lp-flex lp-gap-4">
+                    <svg class="lp-shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_252_3052)">
+                      <path d="M27 8H5C4.44772 8 4 8.44772 4 9V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V9C28 8.44772 27.5523 8 27 8Z" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M21 8V6C21 5.46957 20.7893 4.96086 20.4142 4.58579C20.0391 4.21071 19.5304 4 19 4H13C12.4696 4 11.9609 4.21071 11.5858 4.58579C11.2107 4.96086 11 5.46957 11 6V8" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M16 14V20" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M19 17H13" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_252_3052">
+                      <rect width="32" height="32" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="lp-pr-4">
+                      <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">Easy Home Collection Kit</div>
+                      <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">Collection Kit inlcudes things like, Collection Kit inlcudes Get clinically accurate results for sperm count, motility, and orphology with the convenience of an at-home test kit.</div>
+                    </div>
+                  </div> 
+                  <span class="lp-arrow lp-ml-auto">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+                <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+                  <div class="lp-flex lp-gap-4">
+                    <svg class="lp-shrink-0" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <g clip-path="url(#clip0_252_3062)">
+                      <path d="M11.8462 26.6537C10.9842 27.5157 9.81515 27.9999 8.59617 27.9999C7.37719 27.9999 6.20813 27.5157 5.34617 26.6537C4.48423 25.7918 4 24.6227 4 23.4037C4 22.1848 4.48423 21.0157 5.34617 20.1537L21.4999 4L28.9999 11.5L25.9999 12.5L11.8462 26.6537Z" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M9.10254 16.3975C10.2738 15.9413 12.325 15.6025 15 17C17.675 18.3975 19.7263 18.0588 20.8975 17.6025" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_252_3062">
+                      <rect width="32" height="32" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="lp-pr-4">
+                      <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">Fast & Confidential Results</div>
+                      <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">Collection Kit inlcudes things like, Collection Kit inlcudes Get clinically accurate results for sperm count, motility, and orphology with the convenience of an at-home test kit.</div>
+                    </div>
+                  </div> 
+                  <span class="lp-arrow lp-ml-auto">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+                <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+                  <div class="lp-flex lp-gap-4">
+                    <svg class="lp-shrink-0" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <g clip-path="url(#clip0_252_3070)">
+                      <path d="M27 14V7C27 6.73478 26.8946 6.48043 26.7071 6.29289C26.5196 6.10536 26.2652 6 26 6H6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V14C5 26 16 29 16 29C16 29 27 26 27 14Z" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M11 17L14 20L21 13" stroke="#CB815F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_252_3070">
+                      <rect width="32" height="32" fill="white"/>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    <div class="lp-pr-4">
+                      <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">Expert Support & Guidance</div>
+                      <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">Collection Kit inlcudes things like, Collection Kit inlcudes Get clinically accurate results for sperm count, motility, and orphology with the convenience of an at-home test kit.</div>
+                    </div>
+                  </div> 
+                  <span class="lp-arrow lp-ml-auto">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lp-mt-24">
+          <div class="lp-font-medium lp-font-poppins lp-text-[44px] lp-leading-[56px] lp-text-gray-900 lp-text-center">
+            A Smarter Way to  
+            <br/> 
+            <span class="lp-text-[#2B87AE]">Test Male Fertility at Home</span> 
+          </div>
+          <div class="lp-aspect-video lp-rounded-xl lp-p-1 lp-bg-white lp-absolute lp-left-1/2 lp-top-full lp-w-full lp-max-w-[1080px] -lp-translate-y-1/2 -lp-translate-x-1/2">
+            <video width="100%" height="100%" controls class="lp-rounded-xl">
+              <source src="https://file-examples.com/storage/fe1b07b09f67bcb9b96354c/2017/04/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>        
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-bg-white lp-pb-10">
+      <div class="lp-container-xxl lp-pt-80">
+        <div class="md:lp-px-20 lp-py-14">
+          <div class="lp-font-medium lp-mb-6 lp-font-poppins lp-text-[44px] lp-leading-[56px] lp-text-gray-900 lp-text-center">
+            Testimonials from 
+            <span class="lp-text-[#2B87AE]">our users</span> 
+          </div>
+          <div class="owl-carousel user-carousel">
+            <div class="item">
+              <div class="lp-bg-[#FAF4F0] lp-rounded-xl lp-py-8 lp-px-10 lp-flex lp-flex-col lp-gap-16"> 
+                <div class="lp-text-gray-900 lp-text-xl lp-font-fira">I’m Really impressed with how easy this test was to use. The instructions were clear, and the results came back quickly. The team was super responsive and helpful too! feels like a good product.</div>
+                <div class="lp-inline-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="lp-text-gray-800 lp-font-medium lp-font-fira lp-mt-2">Krashey G</div>
+            </div>
+            <div class="item">
+              <div class="lp-bg-[#FAF4F0] lp-rounded-xl lp-py-8 lp-px-10 lp-flex lp-flex-col lp-gap-16"> 
+                <div class="lp-text-gray-900 lp-text-xl lp-font-fira">I’m Really impressed with how easy this test was to use. The instructions were clear, and the results came back quickly. The team was super responsive and helpful too! feels like a good product.</div>
+                <div class="lp-inline-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="lp-text-gray-800 lp-font-medium lp-font-fira lp-mt-2">Krashey G</div>
+            </div>
+            <div class="item">
+              <div class="lp-bg-[#FAF4F0] lp-rounded-xl lp-py-8 lp-px-10 lp-flex lp-flex-col lp-gap-16"> 
+                <div class="lp-text-gray-900 lp-text-xl lp-font-fira">I’m Really impressed with how easy this test was to use. The instructions were clear, and the results came back quickly. The team was super responsive and helpful too! feels like a good product.</div>
+                <div class="lp-inline-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="lp-text-gray-800 lp-font-medium lp-font-fira lp-mt-2">Krashey G</div>
+            </div>
+            <div class="item">
+              <div class="lp-bg-[#FAF4F0] lp-rounded-xl lp-py-8 lp-px-10 lp-flex lp-flex-col lp-gap-16"> 
+                <div class="lp-text-gray-900 lp-text-xl lp-font-fira">I’m Really impressed with how easy this test was to use. The instructions were clear, and the results came back quickly. The team was super responsive and helpful too! feels like a good product.</div>
+                <div class="lp-inline-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="lp-text-gray-800 lp-font-medium lp-font-fira lp-mt-2">Krashey G</div>
+            </div>
+            <div class="item">
+              <div class="lp-bg-[#FAF4F0] lp-rounded-xl lp-py-8 lp-px-10 lp-flex lp-flex-col lp-gap-16"> 
+                <div class="lp-text-gray-900 lp-text-xl lp-font-fira">I’m Really impressed with how easy this test was to use. The instructions were clear, and the results came back quickly. The team was super responsive and helpful too! feels like a good product.</div>
+                <div class="lp-inline-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <g clip-path="url(#clip0_252_3100)">
+                    <path d="M6.75554 22.362C5.79989 22.9385 4.62089 22.0831 4.87242 20.9958L6.08099 15.771C6.18643 15.3152 6.03128 14.8384 5.67777 14.532L1.62287 11.0165C0.779677 10.2854 1.2293 8.90015 2.34108 8.80364L7.70485 8.33803C8.17118 8.29755 8.57689 8.00251 8.75912 7.57135L10.8362 2.65675C11.2709 1.6282 12.7285 1.62821 13.1633 2.65675L15.2404 7.57135C15.4226 8.00251 15.8283 8.29755 16.2946 8.33803L21.6584 8.80364C22.7702 8.90015 23.2198 10.2854 22.3766 11.0165L18.3217 14.532C17.9682 14.8384 17.8131 15.3152 17.9185 15.771L19.1271 20.9958C19.3786 22.0831 18.1996 22.9385 17.2439 22.362L12.6522 19.5921C12.2509 19.3501 11.7486 19.3501 11.3473 19.5921L6.75554 22.362Z" fill="#FBBC05"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3100">
+                    <rect width="24" height="24" fill="white" transform="translate(0 0.399902)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="lp-text-gray-800 lp-font-medium lp-font-fira lp-mt-2">Krashey G</div>
+            </div>
+          </div>
+          <div class="lp-text-center">
+            <button class="lp-custom-prev disabled:lp-pointer-events-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none">
+                <path d="M32 56.3999C45.2548 56.3999 56 45.6547 56 32.3999C56 19.1451 45.2548 8.3999 32 8.3999C18.7452 8.3999 8 19.1451 8 32.3999C8 45.6547 18.7452 56.3999 32 56.3999Z" stroke="#CCD5DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M43 37.4299C43.0157 29.4087 38.619 26.1308 29.2897 27.2024C27.8241 27.3758 27.8241 27.3915 28.9903 26.5721C30.314 25.6423 33.1506 22.8845 33.0088 22.6481C32.6148 22.0177 31.3856 22.6006 29.5734 24.2553C27.8556 25.8312 25.807 27.2182 24.3887 27.754C21.946 28.6838 21.7096 29.519 23.7898 29.8342C25.4445 30.0863 26.5319 30.5904 29.1479 32.3712C31.2753 33.8211 31.7481 33.9472 32.7566 33.4272C34.1277 32.718 33.3555 31.7725 29.5891 29.5505C28.3757 28.8413 28.5017 28.7626 31.0862 28.7626C38.2251 28.7626 41.5817 33.5532 40.1319 41.6218C39.8955 42.8983 42.9842 43.2607 43 37.4299Z" fill="#CCD5DF"/>
+              </svg>
+            </button> 
+            <button class="lp-custom-next disabled:lp-pointer-events-none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="65" viewBox="0 0 64 65" fill="none">
+                <path d="M32 56.3999C18.7452 56.3999 8 45.6547 8 32.3999C8 19.1451 18.7452 8.3999 32 8.3999C45.2548 8.3999 56 19.1451 56 32.3999C56 45.6547 45.2548 56.3999 32 56.3999Z" stroke="#CCD5DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 37.4299C22.9843 29.4087 27.381 26.1308 36.7103 27.2024C38.1759 27.3758 38.1759 27.3915 37.0097 26.5721C35.686 25.6423 32.8494 22.8845 32.9912 22.6481C33.3852 22.0177 34.6144 22.6006 36.4266 24.2553C38.1444 25.8312 40.193 27.2182 41.6113 27.754C44.054 28.6838 44.2904 29.519 42.2102 29.8342C40.5555 30.0863 39.4681 30.5904 36.8521 32.3712C34.7247 33.8211 34.2519 33.9472 33.2434 33.4272C31.8723 32.718 32.6445 31.7725 36.4109 29.5505C37.6243 28.8413 37.4983 28.7626 34.9138 28.7626C27.7749 28.7626 24.4183 33.5532 25.8681 41.6218C26.1045 42.8983 23.0158 43.2607 23 37.4299Z" fill="#CCD5DF"/>
+              </svg>
+            </button>  
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl lp-relative">
+      <div class="md:lp-px-20">
+        <div class="lp-grid lp-items-center lp-grid-cols-2 lp-grid-flow-col lp-gap-20 lp-mt-[80px]">
+          <div>
+            <div class="lp-mt-3">
+              <h1 class="lp-text-gray-900 lp-text-[44px] lp-font-poppins lp-leading-[66px] lp-font-medium lp-m-0">
+                What you get
+                <span class="lp-text-[#2B87AE] lp-font-medium">with the Kit</span>
+              </h1>
+              <p class="lp-m-0 lp-text-base lp-font-fira lp-text-gray-600">
+                Get clinically accurate results for sperm count, motility, and morphology 
+              </p>
+              <div class="lp-grid lp-grid-cols-3 lp-grid-flow-col lp-gap-3 lp-mt-6">
+                <div class="lp-bg-white lp-rounded-xl lp-p-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <g clip-path="url(#clip0_252_3177)">
+                    <path d="M27 8H5C4.44772 8 4 8.44772 4 9V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V9C28 8.44772 27.5523 8 27 8Z" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 8V6C21 5.46957 20.7893 4.96086 20.4142 4.58579C20.0391 4.21071 19.5304 4 19 4H13C12.4696 4 11.9609 4.21071 11.5858 4.58579C11.2107 4.96086 11 5.46957 11 6V8" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 14V20" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19 17H13" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3177">
+                    <rect width="32" height="32" fill="white"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="lp-text-gray-800 lp-text-lg lp-font-medium lp-font-fira lp-mt-4">Sperm <br/>Collection Kit</div>
+                </div>
+                <div class="lp-bg-white lp-rounded-xl lp-p-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                    <g clip-path="url(#clip0_252_3185)">
+                    <path d="M28.6667 26C30.3236 26 31.6667 24.6569 31.6667 23C31.6667 21.3431 30.3236 20 28.6667 20C27.0099 20 25.6667 21.3431 25.6667 23C25.6667 24.6569 27.0099 26 28.6667 26Z" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.66675 26C6.3236 26 7.66675 24.6569 7.66675 23C7.66675 21.3431 6.3236 20 4.66675 20C3.00989 20 1.66675 21.3431 1.66675 23C1.66675 24.6569 3.00989 26 4.66675 26Z" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.6667 26C12.3236 26 13.6667 24.6569 13.6667 23C13.6667 21.3431 12.3236 20 10.6667 20C9.00989 20 7.66675 21.3431 7.66675 23C7.66675 24.6569 9.00989 26 10.6667 26Z" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M25.6667 23H13.6667" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.6667 23V7C19.6667 6.73478 19.7721 6.48043 19.9596 6.29289C20.1472 6.10536 20.4015 6 20.6667 6H21.6667C23.258 6 24.7842 6.63214 25.9094 7.75736C27.0346 8.88258 27.6667 10.4087 27.6667 12V13C28.7276 13 29.745 13.4214 30.4952 14.1716C31.2453 14.9217 31.6667 15.9391 31.6667 17V23" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.6667 23V9H2.66675C2.40153 9 2.14718 9.10536 1.95964 9.29289C1.7721 9.48043 1.66675 9.73478 1.66675 10V23" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3185">
+                    <rect width="32" height="32" fill="white" transform="translate(0.666748)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="lp-text-gray-800 lp-text-lg lp-font-medium lp-font-fira lp-mt-4">Prepaid <br/>Shipping</div>
+                </div>
+                <div class="lp-bg-white lp-rounded-xl lp-p-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                    <g clip-path="url(#clip0_252_3195)">
+                    <path d="M14.3333 14H22.3333" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.3333 18H22.3333" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M26.3333 5H6.33325C5.78097 5 5.33325 5.44772 5.33325 6V26C5.33325 26.5523 5.78097 27 6.33325 27H26.3333C26.8855 27 27.3333 26.5523 27.3333 26V6C27.3333 5.44772 26.8855 5 26.3333 5Z" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.3333 5V27" stroke="#2A769E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_252_3195">
+                    <rect width="32" height="32" fill="white" transform="translate(0.333252)"/>
+                    </clipPath>
+                    </defs>
+                  </svg>
+                  <div class="lp-text-gray-800 lp-text-lg lp-font-medium lp-font-fira lp-mt-4">Fertility <br/>Health Guide</div>
+                </div>
+              </div>
+              <div class="lp-flex lp-mt-10 lp-items-end lp-gap-2">
+                <h2 class="lp-m-0 lp-text-gray-950 lp-text-[32px] lp-font-fira lp-font-semibold">$ 250.00</h2>
+                <p class="lp-text-gray-800 lp-font-fira lp-text-base lp-m-0">Pay with HSA/FSA</p>
+              </div>
+              <div class="lp-flex lp-items-end lp-mt-4 lp-gap-6">
+                <a href="#" class="lp-text-white lp-font-semibold lp-text-lg lp-font-fira lp-rounded-full lp-h-14 lp-px-8 lp-bg-[#2B87AE] lp-no-underline lp-flex lp-items-center lp-w-max">Order Your Kit Now</a>
+                <div>
+                  <div class="lp-inline-flex">
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                      <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5.62978 17.3011C4.8334 17.7815 3.85091 17.0687 4.06051 16.1626L5.06765 11.8086C5.15552 11.4288 5.02623 11.0315 4.73164 10.7761L1.35256 7.84649C0.649895 7.2373 1.02458 6.08289 1.95106 6.00246L6.42087 5.61446C6.80948 5.58072 7.14757 5.33486 7.29943 4.97556L9.03036 0.880056C9.39262 0.022933 10.6073 0.0229349 10.9695 0.880058L12.7005 4.97556C12.8523 5.33486 13.1904 5.58072 13.579 5.61446L18.0488 6.00246C18.9753 6.08289 19.35 7.2373 18.6473 7.84649L15.2683 10.7761C14.9737 11.0315 14.8444 11.4288 14.9322 11.8086L15.9394 16.1626C16.149 17.0687 15.1665 17.7815 14.3701 17.3011L10.5437 14.9929C10.2093 14.7911 9.79064 14.7911 9.45623 14.9929L5.62978 17.3011Z" fill="#FFC417"></path>
+                      </svg>
+                  </div>
+                  <div class="lp-text-gray-800 lp-text-sm lp-font-fira">Rated by 1K+ people</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/kit.png" alt="kit" class="lp-w-full">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl lp-relative lp-py-20">
+      <div class="md:lp-px-20">
+        <h1 class="lp-text-gray-900 lp-text-[44px] lp-font-poppins lp-leading-[66px] lp-font-medium lp-w-full lp-max-w-[900px] lp-text-center lp-m-auto">
+          With Hera, quality fertility care is within reach,
+          <span class="lp-text-[#2B87AE] lp-font-medium">not out of budget</span>
+        </h1>
+        <div class="lp-grid lp-grid-cols-3 lp-grid-flow-col lp-gap-4 lp-mt-5">
+          <div>
+            <ul>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">&nbsp;</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Accurate</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Approved by Clincins</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">All - inclusive cost</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Parameters Tested</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Personalised report</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Follow-Up Care & Expert Advice</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Privacy</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Speed</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Convenient</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-gray-700 lp-font-medium lp-font-fira">Advanced Testing</li>
+            </ul>
+          </div>
+          <div class="lp-border lp-border-[#2B87AE] lp-rounded-2xl lp-overflow-hidden lp-bg-white">
+            <ul>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-[28px] lp-font-medium lp-font-fira lp-bg-[#2B87AE] lp-text-center lp-text-white">Hera</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#076500]">$250</li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#076500]">8</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#076500]">48 hours</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-text-gray-600">Coming Soon</li>
+            </ul>
+          </div>
+          <div class="lp-border lp-border-gray-200 lp-rounded-2xl lp-overflow-hidden lp-bg-white">
+            <ul>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-[24px] lp-font-medium lp-font-fira lp-bg-[#E3E8EF] lp-text-center lp-text-gray-950">In-Clinic Testing</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3262)">
+                  <path d="M16.25 3C13.6788 3 11.1654 3.76244 9.02759 5.1909C6.88975 6.61935 5.22351 8.64968 4.23957 11.0251C3.25563 13.4006 2.99819 16.0144 3.4998 18.5362C4.00141 21.0579 5.23953 23.3743 7.05762 25.1924C8.8757 27.0105 11.1921 28.2486 13.7138 28.7502C16.2356 29.2518 18.8495 28.9944 21.2249 28.0104C23.6003 27.0265 25.6307 25.3603 27.0591 23.2224C28.4876 21.0846 29.25 18.5712 29.25 16C29.2464 12.5533 27.8756 9.24882 25.4384 6.81163C23.0012 4.37445 19.6967 3.00364 16.25 3ZM21.9575 13.7075L14.9575 20.7075C14.8646 20.8005 14.7543 20.8742 14.6329 20.9246C14.5115 20.9749 14.3814 21.0008 14.25 21.0008C14.1186 21.0008 13.9885 20.9749 13.8671 20.9246C13.7457 20.8742 13.6354 20.8005 13.5425 20.7075L10.5425 17.7075C10.3549 17.5199 10.2494 17.2654 10.2494 17C10.2494 16.7346 10.3549 16.4801 10.5425 16.2925C10.7301 16.1049 10.9846 15.9994 11.25 15.9994C11.5154 15.9994 11.7699 16.1049 11.9575 16.2925L14.25 18.5863L20.5425 12.2925C20.6354 12.1996 20.7457 12.1259 20.8671 12.0756C20.9885 12.0253 21.1186 11.9994 21.25 11.9994C21.3814 11.9994 21.5115 12.0253 21.6329 12.0756C21.7543 12.1259 21.8646 12.1996 21.9575 12.2925C22.0504 12.3854 22.1241 12.4957 22.1744 12.6171C22.2247 12.7385 22.2506 12.8686 22.2506 13C22.2506 13.1314 22.2247 13.2615 22.1744 13.3829C22.1241 13.5043 22.0504 13.6146 21.9575 13.7075Z" fill="#6FB069"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3262">
+                  <rect width="32" height="32" fill="white" transform="translate(0.25)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#AD433D]">$500+</li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#AD433D]">3</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3309)">
+                  <path d="M16.75 3C14.1788 3 11.6654 3.76244 9.52759 5.1909C7.38975 6.61935 5.72351 8.64968 4.73957 11.0251C3.75563 13.4006 3.49819 16.0144 3.9998 18.5362C4.50141 21.0579 5.73953 23.3743 7.55762 25.1924C9.3757 27.0105 11.6921 28.2486 14.2138 28.7502C16.7356 29.2518 19.3495 28.9944 21.7249 28.0104C24.1003 27.0265 26.1307 25.3603 27.5591 23.2224C28.9876 21.0846 29.75 18.5712 29.75 16C29.7464 12.5533 28.3756 9.24882 25.9384 6.81163C23.5012 4.37445 20.1967 3.00364 16.75 3ZM21.4575 19.2925C21.5504 19.3854 21.6241 19.4957 21.6744 19.6171C21.7247 19.7385 21.7506 19.8686 21.7506 20C21.7506 20.1314 21.7247 20.2615 21.6744 20.3829C21.6241 20.5043 21.5504 20.6146 21.4575 20.7075C21.3646 20.8004 21.2543 20.8741 21.1329 20.9244C21.0115 20.9747 20.8814 21.0006 20.75 21.0006C20.6186 21.0006 20.4885 20.9747 20.3671 20.9244C20.2457 20.8741 20.1354 20.8004 20.0425 20.7075L16.75 17.4137L13.4575 20.7075C13.3646 20.8004 13.2543 20.8741 13.1329 20.9244C13.0115 20.9747 12.8814 21.0006 12.75 21.0006C12.6186 21.0006 12.4885 20.9747 12.3671 20.9244C12.2457 20.8741 12.1354 20.8004 12.0425 20.7075C11.9496 20.6146 11.8759 20.5043 11.8256 20.3829C11.7753 20.2615 11.7494 20.1314 11.7494 20C11.7494 19.8686 11.7753 19.7385 11.8256 19.6171C11.8759 19.4957 11.9496 19.3854 12.0425 19.2925L15.3363 16L12.0425 12.7075C11.8549 12.5199 11.7494 12.2654 11.7494 12C11.7494 11.7346 11.8549 11.4801 12.0425 11.2925C12.2301 11.1049 12.4846 10.9994 12.75 10.9994C13.0154 10.9994 13.2699 11.1049 13.4575 11.2925L16.75 14.5863L20.0425 11.2925C20.1354 11.1996 20.2457 11.1259 20.3671 11.0756C20.4885 11.0253 20.6186 10.9994 20.75 10.9994C20.8814 10.9994 21.0115 11.0253 21.1329 11.0756C21.2543 11.1259 21.3646 11.1996 21.4575 11.2925C21.5504 11.3854 21.6241 11.4957 21.6744 11.6171C21.7247 11.7385 21.7506 11.8686 21.7506 12C21.7506 12.1314 21.7247 12.2615 21.6744 12.3829C21.6241 12.5043 21.5504 12.6146 21.4575 12.7075L18.1638 16L21.4575 19.2925Z" fill="#AF504B"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3309">
+                  <rect width="32" height="32" fill="white" transform="translate(0.75)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3309)">
+                  <path d="M16.75 3C14.1788 3 11.6654 3.76244 9.52759 5.1909C7.38975 6.61935 5.72351 8.64968 4.73957 11.0251C3.75563 13.4006 3.49819 16.0144 3.9998 18.5362C4.50141 21.0579 5.73953 23.3743 7.55762 25.1924C9.3757 27.0105 11.6921 28.2486 14.2138 28.7502C16.7356 29.2518 19.3495 28.9944 21.7249 28.0104C24.1003 27.0265 26.1307 25.3603 27.5591 23.2224C28.9876 21.0846 29.75 18.5712 29.75 16C29.7464 12.5533 28.3756 9.24882 25.9384 6.81163C23.5012 4.37445 20.1967 3.00364 16.75 3ZM21.4575 19.2925C21.5504 19.3854 21.6241 19.4957 21.6744 19.6171C21.7247 19.7385 21.7506 19.8686 21.7506 20C21.7506 20.1314 21.7247 20.2615 21.6744 20.3829C21.6241 20.5043 21.5504 20.6146 21.4575 20.7075C21.3646 20.8004 21.2543 20.8741 21.1329 20.9244C21.0115 20.9747 20.8814 21.0006 20.75 21.0006C20.6186 21.0006 20.4885 20.9747 20.3671 20.9244C20.2457 20.8741 20.1354 20.8004 20.0425 20.7075L16.75 17.4137L13.4575 20.7075C13.3646 20.8004 13.2543 20.8741 13.1329 20.9244C13.0115 20.9747 12.8814 21.0006 12.75 21.0006C12.6186 21.0006 12.4885 20.9747 12.3671 20.9244C12.2457 20.8741 12.1354 20.8004 12.0425 20.7075C11.9496 20.6146 11.8759 20.5043 11.8256 20.3829C11.7753 20.2615 11.7494 20.1314 11.7494 20C11.7494 19.8686 11.7753 19.7385 11.8256 19.6171C11.8759 19.4957 11.9496 19.3854 12.0425 19.2925L15.3363 16L12.0425 12.7075C11.8549 12.5199 11.7494 12.2654 11.7494 12C11.7494 11.7346 11.8549 11.4801 12.0425 11.2925C12.2301 11.1049 12.4846 10.9994 12.75 10.9994C13.0154 10.9994 13.2699 11.1049 13.4575 11.2925L16.75 14.5863L20.0425 11.2925C20.1354 11.1996 20.2457 11.1259 20.3671 11.0756C20.4885 11.0253 20.6186 10.9994 20.75 10.9994C20.8814 10.9994 21.0115 11.0253 21.1329 11.0756C21.2543 11.1259 21.3646 11.1996 21.4575 11.2925C21.5504 11.3854 21.6241 11.4957 21.6744 11.6171C21.7247 11.7385 21.7506 11.8686 21.7506 12C21.7506 12.1314 21.7247 12.2615 21.6744 12.3829C21.6241 12.5043 21.5504 12.6146 21.4575 12.7075L18.1638 16L21.4575 19.2925Z" fill="#AF504B"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3309">
+                  <rect width="32" height="32" fill="white" transform="translate(0.75)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3309)">
+                  <path d="M16.75 3C14.1788 3 11.6654 3.76244 9.52759 5.1909C7.38975 6.61935 5.72351 8.64968 4.73957 11.0251C3.75563 13.4006 3.49819 16.0144 3.9998 18.5362C4.50141 21.0579 5.73953 23.3743 7.55762 25.1924C9.3757 27.0105 11.6921 28.2486 14.2138 28.7502C16.7356 29.2518 19.3495 28.9944 21.7249 28.0104C24.1003 27.0265 26.1307 25.3603 27.5591 23.2224C28.9876 21.0846 29.75 18.5712 29.75 16C29.7464 12.5533 28.3756 9.24882 25.9384 6.81163C23.5012 4.37445 20.1967 3.00364 16.75 3ZM21.4575 19.2925C21.5504 19.3854 21.6241 19.4957 21.6744 19.6171C21.7247 19.7385 21.7506 19.8686 21.7506 20C21.7506 20.1314 21.7247 20.2615 21.6744 20.3829C21.6241 20.5043 21.5504 20.6146 21.4575 20.7075C21.3646 20.8004 21.2543 20.8741 21.1329 20.9244C21.0115 20.9747 20.8814 21.0006 20.75 21.0006C20.6186 21.0006 20.4885 20.9747 20.3671 20.9244C20.2457 20.8741 20.1354 20.8004 20.0425 20.7075L16.75 17.4137L13.4575 20.7075C13.3646 20.8004 13.2543 20.8741 13.1329 20.9244C13.0115 20.9747 12.8814 21.0006 12.75 21.0006C12.6186 21.0006 12.4885 20.9747 12.3671 20.9244C12.2457 20.8741 12.1354 20.8004 12.0425 20.7075C11.9496 20.6146 11.8759 20.5043 11.8256 20.3829C11.7753 20.2615 11.7494 20.1314 11.7494 20C11.7494 19.8686 11.7753 19.7385 11.8256 19.6171C11.8759 19.4957 11.9496 19.3854 12.0425 19.2925L15.3363 16L12.0425 12.7075C11.8549 12.5199 11.7494 12.2654 11.7494 12C11.7494 11.7346 11.8549 11.4801 12.0425 11.2925C12.2301 11.1049 12.4846 10.9994 12.75 10.9994C13.0154 10.9994 13.2699 11.1049 13.4575 11.2925L16.75 14.5863L20.0425 11.2925C20.1354 11.1996 20.2457 11.1259 20.3671 11.0756C20.4885 11.0253 20.6186 10.9994 20.75 10.9994C20.8814 10.9994 21.0115 11.0253 21.1329 11.0756C21.2543 11.1259 21.3646 11.1996 21.4575 11.2925C21.5504 11.3854 21.6241 11.4957 21.6744 11.6171C21.7247 11.7385 21.7506 11.8686 21.7506 12C21.7506 12.1314 21.7247 12.2615 21.6744 12.3829C21.6241 12.5043 21.5504 12.6146 21.4575 12.7075L18.1638 16L21.4575 19.2925Z" fill="#AF504B"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3309">
+                  <rect width="32" height="32" fill="white" transform="translate(0.75)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-font-semibold lp-text-[#AD433D]">72+ hours</li>
+              <li class="lp-h-16 lp-border-b lp-border-[#061D2314] lp-content-center lp-text-center">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3309)">
+                  <path d="M16.75 3C14.1788 3 11.6654 3.76244 9.52759 5.1909C7.38975 6.61935 5.72351 8.64968 4.73957 11.0251C3.75563 13.4006 3.49819 16.0144 3.9998 18.5362C4.50141 21.0579 5.73953 23.3743 7.55762 25.1924C9.3757 27.0105 11.6921 28.2486 14.2138 28.7502C16.7356 29.2518 19.3495 28.9944 21.7249 28.0104C24.1003 27.0265 26.1307 25.3603 27.5591 23.2224C28.9876 21.0846 29.75 18.5712 29.75 16C29.7464 12.5533 28.3756 9.24882 25.9384 6.81163C23.5012 4.37445 20.1967 3.00364 16.75 3ZM21.4575 19.2925C21.5504 19.3854 21.6241 19.4957 21.6744 19.6171C21.7247 19.7385 21.7506 19.8686 21.7506 20C21.7506 20.1314 21.7247 20.2615 21.6744 20.3829C21.6241 20.5043 21.5504 20.6146 21.4575 20.7075C21.3646 20.8004 21.2543 20.8741 21.1329 20.9244C21.0115 20.9747 20.8814 21.0006 20.75 21.0006C20.6186 21.0006 20.4885 20.9747 20.3671 20.9244C20.2457 20.8741 20.1354 20.8004 20.0425 20.7075L16.75 17.4137L13.4575 20.7075C13.3646 20.8004 13.2543 20.8741 13.1329 20.9244C13.0115 20.9747 12.8814 21.0006 12.75 21.0006C12.6186 21.0006 12.4885 20.9747 12.3671 20.9244C12.2457 20.8741 12.1354 20.8004 12.0425 20.7075C11.9496 20.6146 11.8759 20.5043 11.8256 20.3829C11.7753 20.2615 11.7494 20.1314 11.7494 20C11.7494 19.8686 11.7753 19.7385 11.8256 19.6171C11.8759 19.4957 11.9496 19.3854 12.0425 19.2925L15.3363 16L12.0425 12.7075C11.8549 12.5199 11.7494 12.2654 11.7494 12C11.7494 11.7346 11.8549 11.4801 12.0425 11.2925C12.2301 11.1049 12.4846 10.9994 12.75 10.9994C13.0154 10.9994 13.2699 11.1049 13.4575 11.2925L16.75 14.5863L20.0425 11.2925C20.1354 11.1996 20.2457 11.1259 20.3671 11.0756C20.4885 11.0253 20.6186 10.9994 20.75 10.9994C20.8814 10.9994 21.0115 11.0253 21.1329 11.0756C21.2543 11.1259 21.3646 11.1996 21.4575 11.2925C21.5504 11.3854 21.6241 11.4957 21.6744 11.6171C21.7247 11.7385 21.7506 11.8686 21.7506 12C21.7506 12.1314 21.7247 12.2615 21.6744 12.3829C21.6241 12.5043 21.5504 12.6146 21.4575 12.7075L18.1638 16L21.4575 19.2925Z" fill="#AF504B"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3309">
+                  <rect width="32" height="32" fill="white" transform="translate(0.75)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="lp-h-16 lp-border-b lp-content-center lp-text-center lp-text-xl lp-font-fira lp-text-gray-600">
+                <svg class="lp-mx-auto" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                  <g clip-path="url(#clip0_252_3309)">
+                  <path d="M16.75 3C14.1788 3 11.6654 3.76244 9.52759 5.1909C7.38975 6.61935 5.72351 8.64968 4.73957 11.0251C3.75563 13.4006 3.49819 16.0144 3.9998 18.5362C4.50141 21.0579 5.73953 23.3743 7.55762 25.1924C9.3757 27.0105 11.6921 28.2486 14.2138 28.7502C16.7356 29.2518 19.3495 28.9944 21.7249 28.0104C24.1003 27.0265 26.1307 25.3603 27.5591 23.2224C28.9876 21.0846 29.75 18.5712 29.75 16C29.7464 12.5533 28.3756 9.24882 25.9384 6.81163C23.5012 4.37445 20.1967 3.00364 16.75 3ZM21.4575 19.2925C21.5504 19.3854 21.6241 19.4957 21.6744 19.6171C21.7247 19.7385 21.7506 19.8686 21.7506 20C21.7506 20.1314 21.7247 20.2615 21.6744 20.3829C21.6241 20.5043 21.5504 20.6146 21.4575 20.7075C21.3646 20.8004 21.2543 20.8741 21.1329 20.9244C21.0115 20.9747 20.8814 21.0006 20.75 21.0006C20.6186 21.0006 20.4885 20.9747 20.3671 20.9244C20.2457 20.8741 20.1354 20.8004 20.0425 20.7075L16.75 17.4137L13.4575 20.7075C13.3646 20.8004 13.2543 20.8741 13.1329 20.9244C13.0115 20.9747 12.8814 21.0006 12.75 21.0006C12.6186 21.0006 12.4885 20.9747 12.3671 20.9244C12.2457 20.8741 12.1354 20.8004 12.0425 20.7075C11.9496 20.6146 11.8759 20.5043 11.8256 20.3829C11.7753 20.2615 11.7494 20.1314 11.7494 20C11.7494 19.8686 11.7753 19.7385 11.8256 19.6171C11.8759 19.4957 11.9496 19.3854 12.0425 19.2925L15.3363 16L12.0425 12.7075C11.8549 12.5199 11.7494 12.2654 11.7494 12C11.7494 11.7346 11.8549 11.4801 12.0425 11.2925C12.2301 11.1049 12.4846 10.9994 12.75 10.9994C13.0154 10.9994 13.2699 11.1049 13.4575 11.2925L16.75 14.5863L20.0425 11.2925C20.1354 11.1996 20.2457 11.1259 20.3671 11.0756C20.4885 11.0253 20.6186 10.9994 20.75 10.9994C20.8814 10.9994 21.0115 11.0253 21.1329 11.0756C21.2543 11.1259 21.3646 11.1996 21.4575 11.2925C21.5504 11.3854 21.6241 11.4957 21.6744 11.6171C21.7247 11.7385 21.7506 11.8686 21.7506 12C21.7506 12.1314 21.7247 12.2615 21.6744 12.3829C21.6241 12.5043 21.5504 12.6146 21.4575 12.7075L18.1638 16L21.4575 19.2925Z" fill="#AF504B"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_252_3309">
+                  <rect width="32" height="32" fill="white" transform="translate(0.75)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl lp-pb-20">
+      <div class="md:lp-px-20">
+        <div class="lp-bg-blue-linear lp-rounded-3xl lp-py-[80px] lp-px-4 lp-relative">
+          <div class="lp-relative lp-z-10">
+            <div class="lp-text-[#F7FBFC] lp-text-[52px] lp-font-poppins lp-font-medium lp-max-w-[730px] lp-mx-auto lp-w-full lp-text-center">Take the First Step in Understanding Your Fertility</div>
+            <div class="lp-mt-3 lp-text-gray-200 lp-text-lg lp-font-fira lp-mx-auto lp-w-full lp-text-center lp-max-w-[650px]">A brief yet thorough questionnaire to personalize your hormone test, considering symptoms, medical history, and medications.</div>
+            <div class="lp-flex lp-mt-10 lp-items-end lp-gap-2 lp-justify-center">
+              <h2 class="lp-m-0 lp-text-white lp-text-[32px] lp-font-fira lp-font-semibold">$ 250.00</h2>
+              <p class="lp-text-[#D8EFF5] lp-font-fira lp-text-base lp-m-0">Pay with HSA/FSA</p>
+            </div>
+            <a href="#" class="lp-text-gray-950 lp-mx-auto lp-mt-4 lp-font-semibold lp-text-lg lp-font-fira lp-rounded-full lp-h-14 lp-px-8 lp-bg-white lp-no-underline lp-flex lp-items-center lp-w-max">Order Your Kit Now</a>
+          </div>
+          <div class="lp-absolute lp-bottom-0 lp-inset-x-0 lp-flex lp-justify-between lp-w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" width="495" height="312" viewBox="0 0 495 312" fill="none">
+              <path opacity="0.12" d="M-390 302.289C-298.818 346.116 -286.717 320.939 -195.52 364.773C-104.322 408.607 -116.47 433.761 -25.3192 477.572C65.8316 521.384 77.9948 496.237 169.208 540.079C260.421 583.92 248.304 609.089 339.517 652.93" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M-363.39 246.927C-272.209 290.754 -260.107 265.577 -168.91 309.411C-77.7127 353.245 -89.8604 378.399 1.29041 422.211C92.4412 466.022 104.604 440.875 195.817 484.717C287.03 528.558 274.913 553.727 366.126 597.569" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M-336.781 191.565C-245.599 235.391 -233.498 210.215 -142.3 254.049C-51.1031 297.883 -63.2508 323.037 27.9 366.848C119.051 410.66 131.214 385.513 222.427 429.354C313.64 473.196 301.523 498.365 392.736 542.206" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M-310.171 136.203C-218.989 180.03 -206.888 154.853 -115.691 198.687C-24.4932 242.521 -36.6409 267.675 54.5099 311.487C145.661 355.298 157.824 330.151 249.037 373.993C340.25 417.834 328.133 443.003 419.346 486.845" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M-283.561 80.8413C-192.379 124.668 -180.278 99.4911 -89.0809 143.325C2.11642 187.159 -10.0313 212.313 81.1195 256.125C172.27 299.936 184.434 274.789 275.646 318.631C366.859 362.472 354.743 387.641 445.955 431.483" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M-256.952 25.4795C-165.77 69.3059 -153.523 43.8259 -62.3255 87.6598C28.8718 131.494 16.5783 156.951 107.729 200.763C198.88 244.574 211.189 219.124 302.402 262.966C393.615 306.807 381.352 332.28 472.565 376.121" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="509" height="312" viewBox="0 0 509 312" fill="none">
+              <path opacity="0.12" d="M885.812 302.289C794.631 346.116 782.53 320.939 691.332 364.773C600.135 408.607 612.283 433.761 521.132 477.572C429.981 521.384 417.818 496.237 326.605 540.079C235.392 583.92 247.509 609.089 156.296 652.93" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M859.203 246.927C768.021 290.754 755.92 265.577 664.723 309.411C573.525 353.245 585.673 378.399 494.522 422.211C403.371 466.022 391.208 440.875 299.995 484.717C208.782 528.558 220.899 553.727 129.686 597.569" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M832.593 191.565C741.411 235.391 729.31 210.215 638.113 254.049C546.915 297.883 559.063 323.037 467.912 366.848C376.762 410.66 364.598 385.513 273.385 429.354C182.173 473.196 194.289 498.365 103.076 542.206" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M805.984 136.203C714.802 180.03 702.701 154.853 611.503 198.687C520.306 242.521 532.454 267.675 441.303 311.487C350.152 355.298 337.989 330.151 246.776 373.993C155.563 417.834 167.68 443.003 76.4668 486.845" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M779.374 80.8413C688.192 124.668 676.091 99.4911 584.894 143.325C493.696 187.159 505.844 212.313 414.693 256.125C323.542 299.936 311.379 274.789 220.166 318.631C128.953 362.472 141.07 387.641 49.8571 431.483" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+              <path opacity="0.12" d="M752.764 25.4795C661.582 69.3059 649.335 43.8259 558.138 87.6598C466.941 131.494 479.234 156.951 388.083 200.763C296.933 244.574 284.624 219.124 193.411 262.966C102.198 306.807 114.46 332.28 23.2474 376.121" stroke="white" stroke-width="44.557" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lp-container-xxl lp-pb-10">
+      <div class="md:lp-px-20">
+        <h1 class="lp-text-gray-900 lp-text-[44px] lp-font-poppins lp-leading-[66px] lp-font-medium lp-w-full lp-max-w-[900px] lp-text-center lp-m-auto">
+          Got Questions? <br/>
+          <span class="lp-text-[#2B87AE] lp-font-medium">We’ve Got Answers</span>
+        </h1>
+        <div class="lp-accordion lp-mt-6">
+          <div class="lp-accordion-item lp-active lp-py-6 lp-border-b lp-border-gray-300">
+            <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+              <div class="lp-pr-4">
+                <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">What is the test checking with my sperm?</div>
+                <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">A semen analysis is conducted to test a man's semen count (concentration), moving semen (motility), normally shaped semen (morphology), and other parameters. One of the most important factors in achieving a pregnancy is the number of motile semen in the sample. Semen cells need to move forward to reach the egg during natural conception. If the semen cannot swim to the egg, natural pregnancy is not possible.</div>
+              </div>
+              <span class="lp-arrow lp-ml-auto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+            <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+              <div class="lp-pr-4">
+                <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">What comes in the test kit?</div>
+                <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">A semen analysis is conducted to test a man's semen count (concentration), moving semen (motility), normally shaped semen (morphology), and other parameters. One of the most important factors in achieving a pregnancy is the number of motile semen in the sample. Semen cells need to move forward to reach the egg during natural conception. If the semen cannot swim to the egg, natural pregnancy is not possible.</div>
+              </div>
+              <span class="lp-arrow lp-ml-auto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+            <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+              <div class="lp-pr-4">
+                <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">How does the testing process work?</div>
+                <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">A semen analysis is conducted to test a man's semen count (concentration), moving semen (motility), normally shaped semen (morphology), and other parameters. One of the most important factors in achieving a pregnancy is the number of motile semen in the sample. Semen cells need to move forward to reach the egg during natural conception. If the semen cannot swim to the egg, natural pregnancy is not possible.</div>
+              </div>
+              <span class="lp-arrow lp-ml-auto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+            <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+              <div class="lp-pr-4">
+                <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">How is my privacy protected?</div>
+                <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">A semen analysis is conducted to test a man's semen count (concentration), moving semen (motility), normally shaped semen (morphology), and other parameters. One of the most important factors in achieving a pregnancy is the number of motile semen in the sample. Semen cells need to move forward to reach the egg during natural conception. If the semen cannot swim to the egg, natural pregnancy is not possible.</div>
+              </div>
+              <span class="lp-arrow lp-ml-auto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lp-accordion-item lp-py-6 lp-border-b lp-border-gray-300">
+            <div class="lp-accordion-header lp-select-none lp-cursor-pointer lp-flex lp-items-start">
+              <div class="lp-pr-4">
+                <div class="lp-text-gray-700 lp-text-lg lp-font-semibold lp-font-fira">How quickly will I get results?</div>
+                <div class="lp-accordion-content lp-text-gray-600 lp-text-sm lp-font-fira lp-mt-1">A semen analysis is conducted to test a man's semen count (concentration), moving semen (motility), normally shaped semen (morphology), and other parameters. One of the most important factors in achieving a pregnancy is the number of motile semen in the sample. Semen cells need to move forward to reach the egg during natural conception. If the semen cannot swim to the egg, natural pregnancy is not possible.</div>
+              </div>
+              <span class="lp-arrow lp-ml-auto">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.9069 14.6753L12.9046 14.7017C13.2732 14.3517 13.6383 13.9968 13.995 13.6407C14.1075 13.5277 14.2194 13.414 14.3314 13.3002C14.6207 13.0062 14.9107 12.7116 15.2123 12.4278C15.6915 11.975 16.1625 11.5208 16.6227 11.0521C16.9618 10.6716 17.296 10.2947 17.6314 9.90945C17.7001 9.83112 17.768 9.75108 17.8361 9.6708C18.0175 9.45704 18.2004 9.24143 18.4021 9.05148C18.8253 8.65426 19.4985 8.6614 19.9006 9.08114C20.2992 9.49602 20.2977 10.1873 19.8745 10.5845C19.8344 10.6211 19.7978 10.6626 19.7528 10.7028C19.5157 10.9663 19.2831 11.2325 19.0508 11.4984C18.5998 12.0145 18.1499 12.5293 17.6701 13.0207C17.4639 13.2348 17.2468 13.4372 17.029 13.6402L17.0277 13.6414C16.8664 13.7917 16.7049 13.9423 16.5472 14.0981C16.1957 14.4449 15.8506 14.7928 15.5031 15.1431L15.3541 15.2933C14.9187 15.7275 14.4756 16.154 14.0327 16.5805C13.6619 16.9374 13.2912 17.2943 12.9252 17.6555C12.6002 17.9737 12.2272 18.2973 11.7402 18.2808C11.3083 18.2681 10.9742 18.0027 10.783 17.6415C10.7139 17.6176 10.6461 17.5853 10.5805 17.5443C10.1975 17.3036 9.8996 16.9861 9.59457 16.659C9.42556 16.4778 9.25516 16.3049 9.09094 16.1202C8.68586 15.6658 8.28047 15.2109 7.88019 14.7529C7.15281 13.9169 6.40335 13.1118 5.60756 12.3552C5.05058 11.8553 4.51884 11.3593 4.08836 10.7375C3.99015 10.5934 3.89625 10.4447 3.80228 10.2958C3.6892 10.1168 3.57603 9.93756 3.45526 9.76608C3.35997 9.71671 3.26727 9.65061 3.18692 9.56067C2.80381 9.15679 2.77919 8.43996 3.2179 8.05375C3.25188 8.029 3.27742 8.00298 3.30649 7.98181C3.63018 7.75357 4.06599 7.65891 4.44853 7.84797C4.72386 7.9815 4.92515 8.17634 5.09688 8.4224C5.23934 8.6223 5.37174 8.82705 5.50368 9.03116C5.69431 9.32595 5.88404 9.6194 6.10207 9.89483C6.29586 10.11 6.49715 10.3048 6.7103 10.5059C7.5184 11.2386 8.28285 12.0031 9.00803 12.8259C9.18639 13.0286 9.36391 13.2324 9.54155 13.4365C9.94505 13.8998 10.3492 14.364 10.7656 14.817C10.8355 14.893 10.837 14.9069 10.8385 14.921C11.8284 15.721 11.4836 15.8667 12.9069 14.6753Z" fill="#9AA4B2"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    document.querySelectorAll('.lp-accordion-header').forEach(header => {
+      header.addEventListener('click', function () {
+        const item = this.parentNode;
+        item.classList.toggle('lp-active');
+      });
+    });
+
+    $(document).ready(function(){
+      var owl = $(".lp-hero-slider");
+      $(".lp-hero-slider").owlCarousel({
+        items: 1,
+        margin: 10,
+        dots: false
+      });
+      var thumbnailsContainer = $(".lp-custom-thumbnails");
+      $(".lp-hero-slider .item img").each(function(index) {
+        var imgSrc = $(this).attr("src");
+        thumbnailsContainer.append('<img class="lp-thumbnail" data-slide="' + index + '" src="' + imgSrc + '">');
+      });
+      $(".lp-thumbnail:first").addClass("active");
+
+      $(".lp-thumbnail").click(function(){
+        var index = $(this).data("slide");
+        owl.trigger("to.owl.carousel", [index, 300]); 
+        $(".lp-thumbnail").removeClass("active");
+        $(this).addClass("active");
+      });
+
+      owl.on("changed.owl.carousel", function(event) {
+        var currentIndex = event.item.index - event.relatedTarget._clones.length / 2;
+        var totalItems = event.item.count;
+        if (currentIndex < 0) {
+          currentIndex = totalItems + currentIndex;
+        } else if (currentIndex >= totalItems) {
+          currentIndex = currentIndex - totalItems;
+        }
+        $(".lp-thumbnail").removeClass("active");
+        $(".lp-thumbnail[data-slide='" + currentIndex + "']").addClass("active");
+      });
+    });
+
+    $(document).ready(function(){
+      var owl = $(".user-carousel");
+      
+      owl.owlCarousel({
+        loop: false,
+        margin: 32,
+        nav: false,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 2 },
+          1000: { items: 3 }
+        },
+        onInitialized: updateNavButtons,
+        onChanged: updateNavButtons 
+      });
+
+      $(".lp-custom-prev").click(function() {
+        owl.trigger("prev.owl.carousel");
+      });
+
+      $(".lp-custom-next").click(function() {
+        owl.trigger("next.owl.carousel");
+      });
+
+      function updateNavButtons(event) {
+        var items = event.item.count;
+        var index = event.item.index;
+
+        $(".lp-custom-prev").prop("disabled", index === 0);
+        $(".lp-custom-next").prop("disabled", index + event.page.size >= items);
+      }
+    });
+</script>
+</body>
+</html>
